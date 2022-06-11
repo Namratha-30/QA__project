@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+    <order_id>1011</order_id>
+    <datetime>2022-05-23 16:05</datetime>
+    <total>300.0</total>
+    <item>
+        <name>butter 200gm</name>
+        <mrp>100.0</mrp>
+        <quantity>1</quantity>
+    </item>
+    <item>
+        <name>milk 500ml</name>
+        <mrp>100.0</mrp>
+        <quantity>2</quantity>
+    </item>
+</items>

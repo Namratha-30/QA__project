@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sales_items>
+    <sales_item>
+        <brand>amul</brand>
+        <category>milk</category>
+        <quantity>2</quantity>
+    </sales_item>
+    <sales_item>
+        <brand>amul</brand>
+        <category>butter</category>
+        <quantity>1</quantity>
+    </sales_item>
+</sales_items>

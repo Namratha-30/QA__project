@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="snippets.html :: name_head">
+    <title>Home</title>
+
+</head>
+
+<body>
+
+<nav th:replace="snippets.html :: name_app1_navbar"></nav>
+<div class="row" id="mainview"> <!-- mainview.row.start -->
+    <div class="col-md-1">
+      <div class="icon-bar"> <!-- icon.bar.start -->
+        <a class="active" th:href="@{/}" id="home"><i class="fa fa-home"></i><span id="bar-item">Home</span></a>
+        <a th:href="@{/site/brand}" id="sale"><i class="fa fa-money"></i><span id="bar-item">Brand</span></a>
+        <a th:href="@{/site/product}" id="products"><i class="fa fa-tag"></i><span id="bar-item">Products</span></a>
+        <a th:href="@{/site/inventory}" id="products"><i class="fa fa-tag"></i><span id="bar-item">Inventory</span></a>
+		<a th:href="@{/site/order}" id="history"><i class="fa fa-file-text-o"></i><span id="bar-item">Order</span></a>
+        <a th:href="@{/site/sales_report}"><i class="fa fa-bar-chart"></i><span id="bar-item">Reports</span></a>
+      </div> <!-- icon.bar.end -->
+    </div> <!-- col-md-1.end -->
+<div class="container">
+<div class="row">
+<div class="col-12">
+ 
+<div class="jumbotron">
+  <h1 class="display-4">This is POS </h1>
+  <p class="lead">Sale Made Easy</p>
+  <hr class="my-4">
+  <p>This application helps you in creating orders, generating invoice and reports easy and fast </p>
+  <!-- <a class="btn btn-primary btn-sm" th:href="@{/site/brand}" role="button">Get Started</a> -->
+</div>
+
+</div>
+</div>
+</div> <!--Container-->
+</div>
+<!--Container ends-->
+<!-- <footer th:replace="snippets.html :: name_footer"></footer> -->
+
+
+</body>
+
+</html>
